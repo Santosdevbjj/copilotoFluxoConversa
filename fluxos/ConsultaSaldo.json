@@ -1,0 +1,40 @@
+{
+  "name": "ConsultaSaldo",
+  "description": "Tópico para consultar o saldo bancário do usuário",
+  "triggerPhrases": [
+    "Qual meu saldo?",
+    "Quero ver meu extrato",
+    "Quanto tenho na conta?",
+    "Saldo da minha conta"
+  ],
+  "nodes": [
+    {
+      "id": "inicio",
+      "type": "message",
+      "text": "Claro! Para consultar seu saldo, preciso que você informe seu CPF."
+    },
+    {
+      "id": "cpf",
+      "type": "ask",
+      "property": "cpfUsuario",
+      "question": "Digite seu CPF (somente números):"
+    },
+    {
+      "id": "resposta",
+      "type": "message",
+      "text": "Consultando seu saldo..."
+    },
+    {
+      "id": "respostaFinal",
+      "type": "message",
+      "text": "Seu saldo atual é de R$ 1.250,00. Posso te ajudar com mais alguma coisa?"
+    }
+  ],
+  "errorHandling": {
+    "default": "Desculpe, não consegui entender. Pode tentar reformular sua pergunta?"
+  },
+  "genAI": {
+    "enabled": true,
+    "quality": "alta"
+  }
+}

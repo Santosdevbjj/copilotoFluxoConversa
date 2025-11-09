@@ -46,6 +46,8 @@ Este documento resume os principais aprendizados adquiridos durante a criação 
 
 ---
 
-## 🧠 Conclusão
+## Conclusão
 
-O Microsoft Copilot Studio permite criar experiências conversacionais poderosas com baixo código, integrando IA generativa para respostas mais naturais e personalizadas. A personalização de tópicos e mensagens torna o copiloto mais eficiente e alinhado com a necessidade do usuário.
+O Microsoft Copilot Studio permite criar experiências conversacionais poderosas com baixo código, integrando IA generativa para respostas mais naturais e personalizadas.
+
+A personalização de tópicos e mensagens torna o copiloto mais eficiente e alinhado com a necessidade do usuário.
